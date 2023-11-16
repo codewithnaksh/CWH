@@ -1,0 +1,50 @@
+/* for resetting defaukt browser styles */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* for making the ubordered list flex so that the list items align in horizontal manner */
+nav ul{
+    display: flex;
+}
+/* for making the nav bar flex */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(66, 63, 63);
+}
+/* adding the padding in between the list items */
+header nav ul li {
+    padding: 23px;
+    list-style: none;
+}
+/* setting the text decoration to none and color to white and font size to 20px */
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* for making the logo flex and aligning the items in center */
+.logo{
+    display: flex;
+    align-items: center;
+    /* padding: 0 30px; */
+    color: white;
+    /* font-size: 15px; */
+}
+/* for making the logo svg padding to 15px */
+.logo svg {
+    padding: 15px;
+    
+}
+
+main{
+    background-color: rgb(74, 126, 94);
+}
+
+section{
+    width: 400px;
+    height: 400px;
+    background-color: #e25757;
+}

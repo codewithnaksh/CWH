@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    width: 60vw;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto;
+}
+
+.boxes{
+    width: 200px;
+    height:200px;
+    background-color: rgb(112, 186, 218);
+    /* border: 2px solid black; */
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 83px 0;    
+}
+
+#scaleX:hover{
+    transform: scaleX(1.5);
+    background-color: black;
+}
+
+#scaleY:hover{
+    transform: scaleY(1.5);
+    background-color: black;
+}
+
+#scale:hover{
+    transform: scale(1.5);
+    background-color: black;
+}
+
+#translateX:hover{
+    transform: translateX(50px);
+    background-color: black;
+}
+
+#translateY:hover{
+    transform: translateY(50px);
+    background-color: black;
+}
+
+#translate:hover{
+    transform: translate(50px,50px);
+    background-color: black;
+}
+
+#matrix:hover{
+    transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+    background-color: black;
+}
+
+#rotate:hover{
+    transform: rotate(45deg);
+    background-color: black;
+}
+
+#skew:hover{
+    transform: skew(20deg, 20deg);
+    background-color: black;
+}
+
+#skewX:hover{
+    transform: skewX(20deg);
+    background-color: black;
+}
+
+#skewY:hover{
+    transform: skewY(20deg);
+    background-color: black;
+}
+
+#matrix3D:hover{
+    transform: matrix3d(
+  0.5,        0,      -0.866025, 0,
+  0.595877,   1.2,    -1.03209,  0,
+  0.866025,   0,       0.5,      0,
+ 25.9808,     0,      15,        1);
+
+   background-color: black;
+}
+
+#translate3D:hover{
+    transform:  (42px, -62px, -135px);
+    background-color: black;
+}
+
+#rotateY:hover{
+    transform: rotateY(45deg);
+    background-color: black;
+}
+
+#rotateX:hover{
+    transform: rotateX(45deg);
+    background-color: black;
+}
+
+#translateZ:hover{
+    transform: perspective(500px) translateZ(-9.7rem);
+    background-color: black;
+}
